@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = "https://saveur-2.onrender.com";
+const BASE = "https://saveur-2.onrender.com/api";
 
 
 const getToken = () => localStorage.getItem("token");
